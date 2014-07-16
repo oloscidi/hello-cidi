@@ -1,0 +1,12 @@
+{
+    "name": "olostech/hello-cidi",
+    "authors": [
+        {
+            "name": "Willian",
+            "email": "willian@cidi.com.br"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
