@@ -3,7 +3,7 @@
 class HelloWorld {
 
     public function greet() {
-        return 'hello, world';
+        return 'hello, CI';
     }
 
 }
