@@ -5,7 +5,7 @@ class HelloWorldTest extends PHPUnit_Framework_TestCase {
 
     public function testShouldRespondWithHelloWorld() {
         $helloWorld = new HelloWorld();
-        $this->assertEquals("hello, world", $helloWorld->greet());
+        $this->assertEquals("hello, CI", $helloWorld->greet());
     }
 
 }
