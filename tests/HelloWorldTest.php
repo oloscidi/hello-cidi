@@ -3,9 +3,9 @@ require_once 'src/HelloWorld.php';
 
 class HelloWorldTest extends PHPUnit_Framework_TestCase {
 
-    public function testShouldRespondWithHelloWorld() {
+    public function testShouldRespondWithHello() {
         $helloWorld = new HelloWorld();
-        $this->assertEquals("hello, CI", $helloWorld->greet());
+        $this->assertEquals("hello", $helloWorld->greet());
     }
 
 }
